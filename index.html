@@ -13,9 +13,8 @@
 			class="w-full md:w-1/2 md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl min-[1536px]:max-w-screen-2xl mx-auto p-8 bg-white rounded-lg shadow-lg flex flex-col gap-8"
 		>
 			<div class="relative">
-				<div class="flex items-center justify-center pb-8"><img src="./ahy_consulting_highres_logo.png" alt="Ahy Consulting" width="300" height="150" class="" /></div>
 				<h1 class="text-3xl font-semibold text-center mb-8 capitalize" x-html="pageTitle"></h1>
-				<button x-show="currentCategory !== null" class="absolute right-10 top-3" @click="currentCategory = null; pageTitle = 'Frontend and Backend Quiz'">
+				<button x-show="currentCategory !== null" class="absolute right-10 top-0" @click="currentCategory = null; pageTitle = 'Frontend and Backend Quiz'">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
 					</svg>
@@ -25,13 +24,13 @@
 			<!-- Buttons to select frontend or backend -->
 			<div class="flex justify-center mb-4 gap-4" x-show="!currentCategory">
 				<button
-					class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
+					class="text-red hover:before:bg-red border-red-500 relative h-[50px] w-40 overflow-hidden border border-red-500 bg-white px-3 rounded-md text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-red-500 hover:before:left-0 hover:before:w-full"
 					@click="selectCategory('frontend')"
 				>
 					<span class="relative z-10">Frontend</span>
 				</button>
 				<button
-					class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
+					class="text-red hover:before:bg-red border-red-500 relative h-[50px] w-40 overflow-hidden border border-red-500 bg-white px-3 rounded-md text-red-500 shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-red-500 before:transition-all before:duration-500 hover:text-white hover:shadow-red-500 hover:before:left-0 hover:before:w-full"
 					@click="selectCategory('backend')"
 				>
 					<span class="relative z-10">Backend</span>
@@ -43,7 +42,7 @@
 				<h2 class="text-xl font-semibold mb-4">Question:</h2>
 				<p x-text="currentQuestion.question" class="text-gray-700 pb-6"></p>
 				<button
-					class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
+					class="before:ease relative h-12 w-40 overflow-hidden border border-blue-500 text-blue-500 shadow-2xl transition-all before:absolute before:top-1/2 before:h-0 before:w-64 before:origin-center before:-translate-x-20 before:rotate-45 before:bg-blue-500 before:duration-500 hover:text-white hover:shadow-blue-500 hover:before:h-64 hover:before:-translate-y-32"
 					@click="showAnswer = !showAnswer; updateShowAnswerText(showAnswer)"
 				>
 					<span class="relative z-10" x-text="showAnswerLabel">Show Answer</span>
@@ -73,7 +72,7 @@
 			<!-- Shuffle button -->
 			<div class="flex justify-center" x-show="currentCategory">
 				<button
-					class="relative flex h-[50px] w-40 items-center justify-center overflow-hidden bg-gray-800 text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-orange-600 before:duration-500 before:ease-out hover:shadow-orange-600 hover:before:h-56 hover:before:w-56"
+					class="group relative min-h-[50px] w-40 overflow-hidden border border-purple-500 bg-white text-purple-500 shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-purple-500 before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-purple-500 after:duration-500 hover:text-white hover:before:h-full hover:after:h-full"
 					@click="shuffleQuestions"
 				>
 					<span

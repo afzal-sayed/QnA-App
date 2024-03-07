@@ -1,3 +1,5 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=afzal-sayed&label=Repo%20views&color=0e75b6&style=flat" alt="afzal-sayed" /> </p>
+
 # QnA-App
 
 This repository contains the source code for a Question and Answer (QnA) application.

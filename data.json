@@ -1,0 +1,382 @@
+{
+    "frontend": [
+        {
+            "question": "What Are Frontend Security Vulnerabilities and How Can Prevent them",
+            "answer": "Frontend security vulnerabilities include Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), and Injection attacks. To prevent them, always validate and sanitize user inputs, use HTTPS to encrypt data transmission, implement Content Security Policy (CSP), and regularly update dependencies to patch security vulnerabilities."
+        },
+        {
+            "question": "What Are Frontend Architecture Patterns",
+            "answer": "Frontend architecture patterns are design blueprints for organizing and managing code in web applications. Examples include MVC (Model-View-Controller), MVVM (Model-View-ViewModel), and Flux. These patterns help improve code maintainability, scalability, and testability."
+        },
+        {
+            "question": "What is Frontend Code Splitting",
+            "answer": "Frontend code splitting is a technique to improve website performance by splitting the JavaScript bundle into smaller chunks that are loaded on demand. This reduces initial loading time and speeds up page rendering. Tools like Webpack and Rollup.js support code splitting."
+        },
+        {
+            "question": "Web Workers and Service Workers",
+            "answer": "Web Workers allow running scripts in background threads to perform heavy computations without blocking the main UI thread. Service Workers are JavaScript scripts that run separately from web pages, enabling features like offline caching, push notifications, and background sync."
+        },
+        {
+            "question": "Frontend Memory Management Techniques",
+            "answer": "Frontend memory management involves techniques like garbage collection, memory profiling, and optimizing memory usage. It's important to minimize memory leaks by deallocating unused objects, using efficient data structures, and avoiding circular references."
+        },
+        {
+            "question": "What is Event Delegation in JavaScript?",
+            "answer": "Event delegation is a technique in JavaScript where you attach an event listener to a parent element instead of individual child elements. When an event occurs, it bubbles up to the parent element, allowing you to handle events dynamically on child elements that are added or removed from the DOM."
+        },
+        {
+            "question": "What are Web Components?",
+            "answer": "Web Components are a set of web platform APIs that allow you to create reusable custom elements with encapsulated functionality and styling. They consist of Shadow DOM for encapsulation, Custom Elements for defining new HTML elements, and HTML Templates for defining markup fragments."
+        },
+        {
+            "question": "What is Virtual DOM?",
+            "answer": "Virtual DOM is a programming concept where an ideal or virtual representation of the user interface is kept in memory and synced with the actual DOM via a process called reconciliation. This allows libraries like React to efficiently update the UI by only rendering the components that have changed."
+        },
+        {
+            "question": "What are Promises in JavaScript?",
+            "answer": "Promises are a built-in feature in JavaScript for handling asynchronous operations. They represent a value that may be available now, in the future, or never. Promises have three states: pending, fulfilled, and rejected, and they are used to handle asynchronous tasks such as fetching data from a server."
+        },
+        {
+            "question": "What is the role of Babel in Frontend Development?",
+            "answer": "Babel is a JavaScript compiler that transforms ECMAScript 2015+ code into a backward-compatible version of JavaScript that can be run in older browsers. It allows developers to write modern JavaScript syntax while ensuring compatibility with a wide range of browsers and environments."
+        },
+        {
+            "question": "What is the difference between localStorage and sessionStorage?",
+            "answer": "localStorage and sessionStorage are both web storage APIs in the browser that allow you to store key-value pairs locally on the user's device. The main difference is that localStorage persists data even after the browser is closed, while sessionStorage data is cleared when the browser session ends (i.e., when the browser is closed or tab is closed)."
+        },
+        {
+            "question": "What is Responsive Web Design?",
+            "answer": "Responsive Web Design is an approach to designing and building websites that ensures optimal viewing and interaction experiences across a wide range of devices and screen sizes. It involves using flexible grids and layouts, CSS media queries, and responsive images to adapt the layout and content based on the device's screen size and orientation."
+        },
+        {
+            "question": "What is the importance of Accessibility in Web Development?",
+            "answer": "Accessibility in web development refers to designing and developing websites and applications that are usable by people of all abilities, including those with disabilities. It is important because it ensures equal access to information and functionality for all users, improves user experience, and can also have legal and ethical implications."
+        },
+        {
+            "question": "What is Progressive Web App (PWA)?",
+            "answer": "Progressive Web App (PWA) is a type of web application that uses modern web capabilities to provide a user experience similar to native apps on mobile devices. PWAs are reliable, fast, and engaging, and they can work offline, send push notifications, and be installed on the home screen without the need for an app store."
+        },
+        {
+            "question": "What is Cross-Origin Resource Sharing (CORS) in Frontend Development?",
+            "answer": "Cross-Origin Resource Sharing (CORS) is a security feature in web browsers that controls which resources on a web page can be requested from another domain. It is used to prevent malicious websites from accessing sensitive data or resources from other domains without permission."
+        },
+        {
+            "question": "What is the Document Object Model (DOM)?",
+            "answer": "The Document Object Model (DOM) is a programming interface for web documents that represents the structure of an HTML or XML document as a tree of objects. It allows developers to interact with and manipulate the content, structure, and style of a web page using JavaScript or other scripting languages."
+        },
+        {
+            "question": "What is Cross-Site Scripting (XSS) and How to Prevent it?",
+            "answer": "Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. To prevent XSS attacks, developers should always sanitize and validate user inputs, use appropriate encoding and escaping techniques, and implement Content Security Policy (CSP) headers."
+        },
+        {
+            "question": "What are the Different Types of HTTP Requests?",
+            "answer": "HTTP (Hypertext Transfer Protocol) defines several request methods or 'verbs' that indicate the desired action to be performed on a resource. The most common HTTP request methods include GET (retrieve data), POST (submit data), PUT (update data), DELETE (remove data), and PATCH (partially update data)."
+        },
+        {
+            "question": "What is JSON Web Token (JWT) and How Does it Work?",
+            "answer": "JSON Web Token (JWT) is an open standard (RFC 7519) for securely transmitting information between parties as a JSON object. It is commonly used for authentication and authorization in web applications. A JWT consists of three parts: header, payload, and signature, and it is typically sent in the Authorization header of HTTP requests."
+        },
+        {
+            "question": "What is Server-Side Rendering (SSR) in Frontend Development?",
+            "answer": "Server-Side Rendering (SSR) is a technique in web development where web pages are rendered on the server and sent to the client as fully formed HTML documents. This improves page load times and SEO performance by providing faster initial render times and better search engine indexing."
+        },
+        {
+            "question": "What are JavaScript Frameworks and Libraries?",
+            "answer": "JavaScript frameworks and libraries are collections of pre-written code that provide reusable solutions for common tasks and functionalities in web development. Examples include React, Angular, Vue.js, jQuery, and Express.js. They help developers build complex web applications more efficiently by providing structure, modularity, and abstraction."
+        },
+        {
+            "question": "What is Web Accessibility and Why is it Important?",
+            "answer": "Web accessibility refers to the inclusive practice of ensuring that websites and web applications are usable by people of all abilities, including those with disabilities. It is important because it promotes equal access to information and services, improves user experience for all users, and can have legal and ethical implications."
+        },
+        {
+            "question": "What is the Difference Between Local Storage and Session Storage in HTML5?",
+            "answer": "Local Storage and Session Storage are both web storage mechanisms provided by HTML5 for storing key-value pairs locally in the user's browser. The main difference is that data stored in Local Storage persists even after the browser is closed, while data stored in Session Storage is cleared when the browser session ends."
+        },
+        {
+            "question": "What is the Role of Webpack in Frontend Development?",
+            "answer": "Webpack is a module bundler for JavaScript applications that bundles and optimizes assets like JavaScript, CSS, and images for deployment. It allows developers to use modular code and manage dependencies more efficiently, and it provides features like code splitting, hot module replacement, and asset optimization."
+        },
+        {
+            "question": "What is the Difference Between a Component and a Directive in Vue.js?",
+            "answer": "In Vue.js, a component is a reusable and self-contained UI unit that encapsulates data, methods, and styles, and it can be composed of HTML, CSS, and JavaScript. A directive, on the other hand, is a special attribute prefixed with 'v-' that provides declarative syntax for adding behavior to HTML elements or components."
+        },
+        {
+            "question": "What is the Difference Between AngularJS and Angular?",
+            "answer": "AngularJS (1.x) is the first version of the Angular framework released by Google in 2010, while Angular (2+) is a complete rewrite of AngularJS with a modular and component-based architecture. Angular introduces several new features and improvements, including improved performance, better tooling, and support for modern JavaScript syntax."
+        },
+        {
+            "question": "What is the Purpose of the 'use strict' Directive in JavaScript?",
+            "answer": "The 'use strict' directive is a pragma in JavaScript that enables strict mode, which imposes stricter parsing and error handling rules on JavaScript code. It helps identify and fix common programming errors, prevents accidental global variable declarations, and improves code quality and security."
+        },
+        {
+            "question": "What are JavaScript Promises and How Do They Work?",
+            "answer": "JavaScript Promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value. They have three states: pending, fulfilled, and rejected, and they allow developers to handle asynchronous tasks more elegantly using then() and catch() methods."
+        },
+        {
+            "question": "What is the Difference Between '==' and '===' Operators in JavaScript?",
+            "answer": "The '==' operator in JavaScript is the loose equality operator, which performs type coercion before comparing two values. The '===' operator, on the other hand, is the strict equality operator, which compares both the value and the type of the operands without type coercion. It is recommended to use '===' for strict equality comparisons."
+        },
+        {
+            "question": "What is the Purpose of the 'defer' Attribute in HTML Script Tags?",
+            "answer": "The 'defer' attribute in HTML script tags is used to defer the execution of a script until after the HTML document has been fully parsed and rendered. This can improve page loading performance by allowing scripts to be downloaded asynchronously while the HTML content is being parsed."
+        },
+        {
+            "question": "What is the Difference Between 'null' and 'undefined' in JavaScript?",
+            "answer": "In JavaScript, 'null' is a special value that represents the absence of a value, while 'undefined' is a primitive type and the default value for uninitialized variables. 'null' is explicitly assigned by developers, while 'undefined' is automatically assigned by JavaScript to variables that have not been assigned a value."
+        },
+        {
+            "question": "What is the Role of npm in Frontend Development?",
+            "answer": "npm (Node Package Manager) is a package manager for JavaScript and Node.js applications that allows developers to install, manage, and share packages of reusable code. It is commonly used in frontend development for managing project dependencies, running scripts, and publishing packages to the npm registry."
+        },
+        {
+            "question": "What are Arrow Functions in JavaScript?",
+            "answer": "Arrow functions are a concise syntax for writing anonymous functions in JavaScript, introduced in ECMAScript 6. They have a shorter syntax compared to traditional function expressions and automatically bind the 'this' value to the surrounding lexical context. Arrow functions are commonly used in modern JavaScript code for their simplicity and readability."
+        },
+        {
+            "question": "What is the Difference Between 'let' and 'const' Declarations in JavaScript?",
+            "answer": "In JavaScript, 'let' and 'const' are both used to declare variables with block scope, but 'let' allows variable reassignment, while 'const' declares a constant whose value cannot be changed after initialization. It is recommended to use 'const' for variables that should not be reassigned, and 'let' for variables that may change."
+        },
+        {
+            "question": "What is the Difference Between '== null' and '=== undefined' in JavaScript?",
+            "answer": "'== null' checks whether a value is equal to 'null' or 'undefined', while '=== undefined' checks whether a value is strictly equal to 'undefined' only. The '== null' check is commonly used to test for both 'null' and 'undefined' values, while the '=== undefined' check is more specific and only checks for 'undefined'."
+        },
+        {
+            "question": "What is the Purpose of the 'async' and 'await' Keywords in JavaScript?",
+            "answer": "The 'async' and 'await' keywords in JavaScript are used to handle asynchronous operations more elegantly and sequentially. The 'async' keyword is used to define asynchronous functions that return Promises, and the 'await' keyword is used to pause the execution of an asynchronous function until a Promise is resolved or rejected."
+        },
+        {
+            "question": "What is the Difference Between 'innerHTML' and 'textContent' in JavaScript?",
+            "answer": "'innerHTML' is a property in JavaScript that allows you to get or set the HTML content (including tags) of an element as a string, while 'textContent' is a property that allows you to get or set the text content of an element as a string, excluding HTML tags. It is recommended to use 'textContent' when dealing with text content to avoid potential security vulnerabilities."
+        },
+        {
+            "question": "What is the Difference Between 'map()' and 'forEach()' Methods in JavaScript?",
+            "answer": "'map()' and 'forEach()' are both array methods in JavaScript used to iterate over arrays and execute a function for each element. The main difference is that 'map()' returns a new array with the results of calling a provided function on every element in the array, while 'forEach()' simply iterates over the array and does not return a new array."
+        },
+        {
+            "question": "What is the Purpose of the 'defer' Attribute in HTML Script Tags?",
+            "answer": "The 'defer' attribute in HTML script tags is used to defer the execution of a script until after the HTML document has been fully parsed and rendered. This can improve page loading performance by allowing scripts to be downloaded asynchronously while the HTML content is being parsed."
+        },
+        {
+            "question": "What is the Difference Between 'null' and 'undefined' in JavaScript?",
+            "answer": "In JavaScript, 'null' is a special value that represents the absence of a value, while 'undefined' is a primitive type and the default value for uninitialized variables. 'null' is explicitly assigned by developers, while 'undefined' is automatically assigned by JavaScript to variables that have not been assigned a value."
+        },
+        {
+            "question": "What is the Role of npm in Frontend Development?",
+            "answer": "npm (Node Package Manager) is a package manager for JavaScript and Node.js applications that allows developers to install, manage, and share packages of reusable code. It is commonly used in frontend development for managing project dependencies, running scripts, and publishing packages to the npm registry."
+        },
+        {
+            "question": "What are Arrow Functions in JavaScript?",
+            "answer": "Arrow functions are a concise syntax for writing anonymous functions in JavaScript, introduced in ECMAScript 6. They have a shorter syntax compared to traditional function expressions and automatically bind the 'this' value to the surrounding lexical context. Arrow functions are commonly used in modern JavaScript code for their simplicity and readability."
+        },
+        {
+            "question": "What is the Difference Between 'let' and 'const' Declarations in JavaScript?",
+            "answer": "In JavaScript, 'let' and 'const' are both used to declare variables with block scope, but 'let' allows variable reassignment, while 'const' declares a constant whose value cannot be changed after initialization. It is recommended to use 'const' for variables that should not be reassigned, and 'let' for variables that may change."
+        },
+        {
+            "question": "What is the Difference Between '== null' and '=== undefined' in JavaScript?",
+            "answer": "'== null' checks whether a value is equal to 'null' or 'undefined', while '=== undefined' checks whether a value is strictly equal to 'undefined' only. The '== null' check is commonly used to test for both 'null' and 'undefined' values, while the '=== undefined' check is more specific and only checks for 'undefined'."
+        },
+        {
+            "question": "What is the Purpose of the 'async' and 'await' Keywords in JavaScript?",
+            "answer": "The 'async' and 'await' keywords in JavaScript are used to handle asynchronous operations more elegantly and sequentially. The 'async' keyword is used to define asynchronous functions that return Promises, and the 'await' keyword is used to pause the execution of an asynchronous function until a Promise is resolved or rejected."
+        },
+        {
+            "question": "What is the Difference Between 'innerHTML' and 'textContent' in JavaScript?",
+            "answer": "'innerHTML' is a property in JavaScript that allows you to get or set the HTML content (including tags) of an element as a string, while 'textContent' is a property that allows you to get or set the text content of an element as a string, excluding HTML tags. It is recommended to use 'textContent' when dealing with text content to avoid potential security vulnerabilities."
+        },
+        {
+            "question": "What is the Difference Between 'map()' and 'forEach()' Methods in JavaScript?",
+            "answer": "'map()' and 'forEach()' are both array methods in JavaScript used to iterate over arrays and execute a function for each element. The main difference is that 'map()' returns a new array with the results of calling a provided function on every element in the array, while 'forEach()' simply iterates over the array and does not return a new array."
+        },
+        {
+            "question": "What is the Purpose of the 'defer' Attribute in HTML Script Tags?",
+            "answer": "The 'defer' attribute in HTML script tags is used to defer the execution of a script until after the HTML document has been fully parsed and rendered. This can improve page loading performance by allowing scripts to be downloaded asynchronously while the HTML content is being parsed."
+        },
+        {
+            "question": "What is the Difference Between 'null' and 'undefined' in JavaScript?",
+            "answer": "In JavaScript, 'null' is a special value that represents the absence of a value, while 'undefined' is a primitive type and the default value for uninitialized variables. 'null' is explicitly assigned by developers, while 'undefined' is automatically assigned by JavaScript to variables that have not been assigned a value."
+        },
+        {
+            "question": "What is the Role of npm in Frontend Development?",
+            "answer": "npm (Node Package Manager) is a package manager for JavaScript and Node.js applications that allows developers to install, manage, and share packages of reusable code. It is commonly used in frontend development for managing project dependencies, running scripts, and publishing packages to the npm registry."
+        },
+        {
+            "question": "What are Arrow Functions in JavaScript?",
+            "answer": "Arrow functions are a concise syntax for writing anonymous functions in JavaScript, introduced in ECMAScript 6. They have a shorter syntax compared to traditional function expressions and automatically bind the 'this' value to the surrounding lexical context. Arrow functions are commonly used in modern JavaScript code for their simplicity and readability."
+        },
+        {
+            "question": "What is the Difference Between 'let' and 'const' Declarations in JavaScript?",
+            "answer": "In JavaScript, 'let' and 'const' are both used to declare variables with block scope, but 'let' allows variable reassignment, while 'const' declares a constant whose value cannot be changed after initialization. It is recommended to use 'const' for variables that should not be reassigned, and 'let' for variables that may change."
+        },
+        {
+            "question": "What is the Difference Between '== null' and '=== undefined' in JavaScript?",
+            "answer": "'== null' checks whether a value is equal to 'null' or 'undefined', while '=== undefined' checks whether a value is strictly equal to 'undefined' only. The '== null' check is commonly used to test for both 'null' and 'undefined' values, while the '=== undefined' check is more specific and only checks for 'undefined'."
+        },
+        {
+            "question": "What is the Purpose of the 'async' and 'await' Keywords in JavaScript?",
+            "answer": "The 'async' and 'await' keywords in JavaScript are used to handle asynchronous operations more elegantly and sequentially. The 'async' keyword is used to define asynchronous functions that return Promises, and the 'await' keyword is used to pause the execution of an asynchronous function until a Promise is resolved or rejected."
+        },
+        {
+            "question": "What is the Difference Between 'innerHTML' and 'textContent' in JavaScript?",
+            "answer": "'innerHTML' is a property in JavaScript that allows you to get or set the HTML content (including tags) of an element as a string, while 'textContent' is a property that allows you to get or set the text content of an element as a string, excluding HTML tags. It is recommended to use 'textContent' when dealing with text content to avoid potential security vulnerabilities."
+        },
+        {
+            "question": "What is the Difference Between 'map()' and 'forEach()' Methods in JavaScript?",
+            "answer": "'map()' and 'forEach()' are both array methods in JavaScript used to iterate over arrays and execute a function for each element. The main difference is that 'map()' returns a new array with the results of calling a provided function on every element in the array, while 'forEach()' simply iterates over the array and does not return a new array."
+        }
+    ],
+    "backend": [
+        {
+            "question": "Fundamentals of Object-Oriented Programming",
+            "answer": "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which encapsulate data and behavior. Fundamentals include inheritance, polymorphism, encapsulation, and abstraction. For example, in Java, a class hierarchy with superclass and subclasses demonstrates inheritance."
+        },
+        {
+            "question": "Design Patterns",
+            "answer": "Design patterns are reusable solutions to common software design problems. Examples include Singleton, Factory, Observer, and MVC. These patterns promote code reusability, flexibility, and maintainability. For instance, the Observer pattern is used in event-driven systems to notify multiple objects of state changes."
+        },
+        {
+            "question": "System Design",
+            "answer": "System design involves designing scalable and reliable software architectures to handle large-scale systems. Topics include database design, load balancing, caching strategies, and microservices architecture. For instance, designing a social media platform requires considering data sharding for scalability and implementing a distributed caching system."
+        },
+        {
+            "question": "RESTful API vs GraphQL",
+            "answer": "RESTful API follows a stateless client-server architecture with standard HTTP methods for CRUD operations. GraphQL is a query language for APIs that allows clients to request only the data they need. While RESTful APIs are simpler and have widespread support, GraphQL offers more flexibility and reduces over-fetching and under-fetching of data."
+        },
+        {
+            "question": "ORM vs Raw SQL",
+            "answer": "ORM (Object-Relational Mapping) is a programming technique to map database tables to objects in code, enabling developers to work with relational databases using object-oriented principles. Raw SQL involves writing SQL queries directly to interact with the database. ORM frameworks like Hibernate (Java) and SQLAlchemy (Python) abstract away SQL complexities and provide higher-level APIs for database operations."
+        },
+        {
+            "question": "What is the Difference Between 'GET' and 'POST' Methods in HTTP?",
+            "answer": "The 'GET' method in HTTP is used to request data from a specified resource, and it should only be used for idempotent operations (i.e., operations that do not modify data). The 'POST' method, on the other hand, is used to submit data to be processed to a specified resource and can be used for non-idempotent operations (i.e., operations that modify data)."
+        },
+        {
+            "question": "What is the Purpose of HTTP Status Codes?",
+            "answer": "HTTP status codes are standardized codes returned by web servers in response to HTTP requests from clients. They provide information about the status of the request and can be used to indicate success, failure, redirection, or other status conditions. For example, a 200 status code indicates that the request was successful, while a 404 status code indicates that the requested resource was not found."
+        },
+        {
+            "question": "What is Database Normalization and Why is it Important?",
+            "answer": "Database normalization is the process of organizing the data in a database to reduce redundancy and improve data integrity. It involves breaking down large tables into smaller tables and defining relationships between them using foreign keys. Normalization helps prevent data anomalies like insertion, update, and deletion anomalies and ensures data consistency and accuracy."
+        },
+        {
+            "question": "What is the Difference Between Authentication and Authorization?",
+            "answer": "Authentication is the process of verifying the identity of a user or entity, usually by providing credentials such as username and password. Authorization, on the other hand, is the process of determining whether a user or entity has permission to access a particular resource or perform a specific action. Authentication precedes authorization in the access control process."
+        },
+        {
+            "question": "What is the Role of a Reverse Proxy Server?",
+            "answer": "A reverse proxy server is a type of proxy server that sits between clients and backend servers and forwards client requests to the appropriate backend server. It can be used to improve security, performance, and scalability by offloading tasks like SSL termination, caching, and load balancing from the backend servers."
+        },
+        {
+            "question": "What is a Microservices Architecture and When Should it be Used?",
+            "answer": "A microservices architecture is an architectural style that structures an application as a collection of loosely coupled services, each responsible for a specific business function and communicating with other services via APIs. It should be used for large, complex applications that require scalability, flexibility, and rapid development and deployment of individual components."
+        },
+        {
+            "question": "What is the Difference Between SQL and NoSQL Databases?",
+            "answer": "SQL (Structured Query Language) databases are relational databases that store data in tables with predefined schemas and support SQL queries for data manipulation. NoSQL databases, on the other hand, are non-relational databases that store data in flexible, schema-less formats like JSON and XML and use different query languages or APIs for data access."
+        },
+        {
+            "question": "What is the Difference Between Horizontal and Vertical Scaling?",
+            "answer": "Horizontal scaling, also known as scaling out, involves adding more instances of existing resources like servers or databases to distribute the load across multiple machines. Vertical scaling, also known as scaling up, involves increasing the capacity of existing resources like CPU, memory, or storage on a single machine."
+        },
+        {
+            "question": "What is the Difference Between Monolithic and Microservices Architectures?",
+            "answer": "A monolithic architecture is a traditional architectural style where all components of an application are tightly coupled and deployed as a single unit. A microservices architecture, on the other hand, is an architectural style where an application is divided into loosely coupled services that can be developed, deployed, and scaled independently."
+        },
+        {
+            "question": "What is the Role of Load Balancing in Web Applications?",
+            "answer": "Load balancing is the process of distributing incoming network traffic across multiple servers to optimize resource utilization, maximize throughput, minimize response time, and ensure high availability and reliability of web applications. It helps prevent server overload and ensures seamless user experience even during peak traffic periods."
+        },
+        {
+            "question": "What is the Difference Between a Session and a Cookie?",
+            "answer": "A session is a temporary storage mechanism used to maintain stateful information about a user's interaction with a web application across multiple HTTP requests. A cookie, on the other hand, is a small piece of data stored on the user's device by the web browser and sent to the server with every HTTP request."
+        },
+        {
+            "question": "What is the Role of Caching in Web Applications?",
+            "answer": "Caching is the process of storing frequently accessed data or resources in temporary storage (cache) to reduce latency, improve performance, and minimize server load. It helps speed up web applications by serving cached content to users instead of fetching it from the origin server, especially for static or infrequently changing content."
+        },
+        {
+            "question": "What is the Difference Between Authentication and Authorization?",
+            "answer": "Authentication is the process of verifying the identity of a user or entity, usually by providing credentials such as username and password. Authorization, on the other hand, is the process of determining whether a user or entity has permission to access a particular resource or perform a specific action. Authentication precedes authorization in the access control process."
+        },
+        {
+            "question": "What is the Role of a Reverse Proxy Server?",
+            "answer": "A reverse proxy server is a type of proxy server that sits between clients and backend servers and forwards client requests to the appropriate backend server. It can be used to improve security, performance, and scalability by offloading tasks like SSL termination, caching, and load balancing from the backend servers."
+        },
+        {
+            "question": "What is a Microservices Architecture and When Should it be Used?",
+            "answer": "A microservices architecture is an architectural style that structures an application as a collection of loosely coupled services, each responsible for a specific business function and communicating with other services via APIs. It should be used for large, complex applications that require scalability, flexibility, and rapid development and deployment of individual components."
+        },
+        {
+            "question": "What is the Difference Between SQL and NoSQL Databases?",
+            "answer": "SQL (Structured Query Language) databases are relational databases that store data in tables with predefined schemas and support SQL queries for data manipulation. NoSQL databases, on the other hand, are non-relational databases that store data in flexible, schema-less formats like JSON and XML and use different query languages or APIs for data access."
+        },
+        {
+            "question": "What is the Difference Between Horizontal and Vertical Scaling?",
+            "answer": "Horizontal scaling, also known as scaling out, involves adding more instances of existing resources like servers or databases to distribute the load across multiple machines. Vertical scaling, also known as scaling up, involves increasing the capacity of existing resources like CPU, memory, or storage on a single machine."
+        },
+        {
+            "question": "What is the Difference Between Monolithic and Microservices Architectures?",
+            "answer": "A monolithic architecture is a traditional architectural style where all components of an application are tightly coupled and deployed as a single unit. A microservices architecture, on the other hand, is an architectural style where an application is divided into loosely coupled services that can be developed, deployed, and scaled independently."
+        },
+        {
+            "question": "What is the Role of Load Balancing in Web Applications?",
+            "answer": "Load balancing is the process of distributing incoming network traffic across multiple servers to optimize resource utilization, maximize throughput, minimize response time, and ensure high availability and reliability of web applications. It helps prevent server overload and ensures seamless user experience even during peak traffic periods."
+        },
+        {
+            "question": "What is the Difference Between a Session and a Cookie?",
+            "answer": "A session is a temporary storage mechanism used to maintain stateful information about a user's interaction with a web application across multiple HTTP requests. A cookie, on the other hand, is a small piece of data stored on the user's device by the web browser and sent to the server with every HTTP request."
+        },
+        {
+            "question": "What is the Role of Caching in Web Applications?",
+            "answer": "Caching is the process of storing frequently accessed data or resources in temporary storage (cache) to reduce latency, improve performance, and minimize server load. It helps speed up web applications by serving cached content to users instead of fetching it from the origin server, especially for static or infrequently changing content."
+        },
+        {
+            "question": "What is the Difference Between a Session and a Cookie?",
+            "answer": "A session is a temporary storage mechanism used to maintain stateful information about a user's interaction with a web application across multiple HTTP requests. A cookie, on the other hand, is a small piece of data stored on the user's device by the web browser and sent to the server with every HTTP request."
+        },
+        {
+            "question": "What is the Role of Caching in Web Applications?",
+            "answer": "Caching is the process of storing frequently accessed data or resources in temporary storage (cache) to reduce latency, improve performance, and minimize server load. It helps speed up web applications by serving cached content to users instead of fetching it from the origin server, especially for static or infrequently changing content."
+        },
+        {
+            "question": "What is Database Normalization and Why is it Important?",
+            "answer": "Database normalization is the process of organizing the data in a database to reduce redundancy and improve data integrity. It involves breaking down large tables into smaller tables and defining relationships between them using foreign keys. Normalization helps prevent data anomalies like insertion, update, and deletion anomalies and ensures data consistency and accuracy."
+        },
+        {
+            "question": "What is the Difference Between Authentication and Authorization?",
+            "answer": "Authentication is the process of verifying the identity of a user or entity, usually by providing credentials such as username and password. Authorization, on the other hand, is the process of determining whether a user or entity has permission to access a particular resource or perform a specific action. Authentication precedes authorization in the access control process."
+        },
+        {
+            "question": "What is the Role of a Reverse Proxy Server?",
+            "answer": "A reverse proxy server is a type of proxy server that sits between clients and backend servers and forwards client requests to the appropriate backend server. It can be used to improve security, performance, and scalability by offloading tasks like SSL termination, caching, and load balancing from the backend servers."
+        },
+        {
+            "question": "What is a Microservices Architecture and When Should it be Used?",
+            "answer": "A microservices architecture is an architectural style that structures an application as a collection of loosely coupled services, each responsible for a specific business function and communicating with other services via APIs. It should be used for large, complex applications that require scalability, flexibility, and rapid development and deployment of individual components."
+        },
+        {
+            "question": "What is the Difference Between SQL and NoSQL Databases?",
+            "answer": "SQL (Structured Query Language) databases are relational databases that store data in tables with predefined schemas and support SQL queries for data manipulation. NoSQL databases, on the other hand, are non-relational databases that store data in flexible, schema-less formats like JSON and XML and use different query languages or APIs for data access."
+        },
+        {
+            "question": "What is the Difference Between Horizontal and Vertical Scaling?",
+            "answer": "Horizontal scaling, also known as scaling out, involves adding more instances of existing resources like servers or databases to distribute the load across multiple machines. Vertical scaling, also known as scaling up, involves increasing the capacity of existing resources like CPU, memory, or storage on a single machine."
+        },
+        {
+            "question": "What is the Difference Between Monolithic and Microservices Architectures?",
+            "answer": "A monolithic architecture is a traditional architectural style where all components of an application are tightly coupled and deployed as a single unit. A microservices architecture, on the other hand, is an architectural style where an application is divided into loosely coupled services that can be developed, deployed, and scaled independently."
+        },
+        {
+            "question": "What is the Role of Load Balancing in Web Applications?",
+            "answer": "Load balancing is the process of distributing incoming network traffic across multiple servers to optimize resource utilization, maximize throughput, minimize response time, and ensure high availability and reliability of web applications. It helps prevent server overload and ensures seamless user experience even during peak traffic periods."
+        },
+        {
+            "question": "What is the Difference Between a Session and a Cookie?",
+            "answer": "A session is a temporary storage mechanism used to maintain stateful information about a user's interaction with a web application across multiple HTTP requests. A cookie, on the other hand, is a small piece of data stored on the user's device by the web browser and sent to the server with every HTTP request."
+        },
+        {
+            "question": "What is the Role of Caching in Web Applications?",
+            "answer": "Caching is the process of storing frequently accessed data or resources in temporary storage (cache) to reduce latency, improve performance, and minimize server load. It helps speed up web applications by serving cached content to users instead of fetching it from the origin server, especially for static or infrequently changing content."
+        }
+    ]
+}
